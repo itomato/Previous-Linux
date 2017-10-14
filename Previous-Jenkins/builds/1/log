@@ -1,0 +1,1328 @@
+Started by user [8mha:////4HatI9DZkfEzVjzV87UGNjgLc56vJMg5bEyFvzqHx23vAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL98qxsAJgIL4S+AAAA[0mwjk
+Building in workspace /var/lib/jenkins/workspace/Previous
+Checking out a fresh workspace because there's no workspace at /var/lib/jenkins/workspace/Previous
+Cleaning local Directory .
+Checking out https://svn.code.sf.net/p/previous/code/trunk at revision '2017-10-13T15:07:18.317 -0700'
+A         CMakeLists.txt
+A         readme.previous.txt
+A         src
+A         src/CMakeLists.txt
+A         src/audio.c
+A         src/bmap.c
+A         src/change.c
+A         src/configuration.c
+A         src/cpu
+AU        src/cpu/cpuemu_common.c
+A         src/cpu/cpummu.c
+A         src/cpu/cpummu.h
+A         src/cpu/cpummu030.c
+A         src/cpu/fpp-softfloat.h
+A         src/cpu/fpp.c
+A         src/cpu/gencpu.c
+A         src/cpu/md-fpp.h
+A         src/cpu/memory.c
+A         src/cpu/newcpu.c
+A         src/cpu/newcpu.h
+A         src/cpu/CMakeLists.txt
+A         src/cpu/build68k.c
+A         src/cpu/compat.h
+A         src/cpu/cpu_prefetch.h
+A         src/cpu/cpummu030.h
+A         src/cpu/fpp-ieee-be.h
+A         src/cpu/hatari-glue.c
+A         src/cpu/hatari-glue.h
+A         src/cpu/jit
+A         src/cpu/jit/compemu.h
+A         src/cpu/jit/compemu_codegen.h
+A         src/cpu/jit/compemu_fpp.c
+A         src/cpu/jit/compemu_support.c
+A         src/cpu/jit/compemu_support_codegen.c
+A         src/cpu/jit/gencomp.c
+A         src/cpu/jit/codegen_x86.h
+A         src/cpu/jit/compemu_raw_x86.c
+A         src/cpu/jit/comptbl.h
+A         src/cpu/jit/codegen_x86.c
+A         src/cpu/jit/compemu_optimizer_x86.c
+A         src/cpu/memory.h
+A         src/cpu/mmu_common.h
+A         src/cpu/options_cpu.h
+A         src/cpu/readcpu.c
+A         src/cpu/readcpu.h
+A         src/cpu/sysconfig.h
+A         src/cpu/sysdeps.h
+A         src/cpu/table68k
+A         src/cpu/version_readme.txt
+A         src/cpu/maccess.h
+A         src/cpu/fpp-unknown.h
+A         src/cpu/m68k.h
+A         src/cycInt.c
+A         src/dimension
+A         src/dimension/dimension.c
+A         src/dimension/dimension.h
+A         src/dimension/i860.cpp
+A         src/dimension/i860.hpp
+A         src/dimension/i860cfg.h
+A         src/dimension/i860dbg.cpp
+A         src/dimension/i860dec.cpp
+A         src/dimension/i860dis.cpp
+A         src/dimension/nd_sdl.c
+A         src/dimension/nd_sdl.h
+A         src/dimension/CMakeLists.txt
+A         src/dimension/nd_devs.c
+A         src/dimension/nd_devs.h
+A         src/dimension/nd_mem.c
+A         src/dimension/nd_mem.h
+A         src/dimension/nd_nbic.c
+A         src/dimension/nd_nbic.h
+A         src/dimension/nd_rom.c
+A         src/dimension/nd_rom.h
+A         src/dimension/nd_vio.c
+A         src/dimension/nd_vio.h
+A         src/dma.c
+A         src/enet_slirp.c
+A         src/esp.c
+A         src/ethernet.c
+A         src/fast_screen.c
+A         src/floppy.c
+A         src/gui-osx
+A         src/gui-osx/English.lproj
+AU        src/gui-osx/English.lproj/InfoPlist.strings
+A         src/gui-osx/English.lproj/Localizable.strings
+A         src/gui-osx/English.lproj/SDLMain.nib
+AU        src/gui-osx/English.lproj/SDLMain.nib/keyedobjects.nib
+A         src/gui-osx/English.lproj/SDLMain.nib/designable.nib
+A         src/gui-osx/French.lproj
+AU        src/gui-osx/French.lproj/InfoPlist.strings
+AU        src/gui-osx/French.lproj/Localizable.strings
+A         src/gui-osx/French.lproj/SDLMain.nib
+AU        src/gui-osx/French.lproj/SDLMain.nib/keyedobjects.nib
+A         src/gui-osx/French.lproj/SDLMain.nib/designable.nib
+A         src/gui-osx/CreateFloppyController.m
+A         src/gui-osx/PrefsController.h
+A         src/gui-osx/PrefsController.m
+A         src/gui-osx/SDLMain.m
+AU        src/gui-osx/Previous.icns
+A         src/gui-osx/Info-Previous.plist
+A         src/gui-osx/Shared.h
+A         src/gui-osx/Shared.m
+A         src/gui-osx/AlertHooks.h
+A         src/gui-osx/AlertHooks.m
+A         src/gui-osx/CreateFloppyController.h
+A         src/gui-osx/SDLMain.h
+A         src/gui-sdl
+A         src/gui-sdl/dlgEthernet.c
+A         src/gui-sdl/dlgSCSI.c
+A         src/gui-sdl/CMakeLists.txt
+A         src/gui-sdl/dlgAdvanced.c
+A         src/gui-sdl/dlgAlert.c
+A         src/gui-sdl/dlgDimension.c
+A         src/gui-sdl/dlgDiskSelect.c
+A         src/gui-sdl/dlgKeyboard.c
+A         src/gui-sdl/dlgMain.c
+A         src/gui-sdl/dlgMemory.c
+A         src/gui-sdl/dlgMissingFile.c
+A         src/gui-sdl/dlgMouse.c
+A         src/gui-sdl/dlgOpticalDisk.c
+A         src/gui-sdl/dlgSound.c
+A         src/gui-sdl/dlgSystem.c
+A         src/gui-sdl/sdlgui.c
+A         src/gui-sdl/dlgDevice.c
+A         src/gui-sdl/dlgFileSelect.c
+A         src/gui-sdl/dlgPrinter.c
+A         src/gui-sdl/dlgAbout.c
+A         src/gui-sdl/dlgBoot.c
+A         src/gui-sdl/dlgFloppy.c
+A         src/gui-sdl/dlgRom.c
+A         src/gui-sdl/dlgMemoryAdvanced.c
+A         src/gui-sdl/dlgScreen.c
+A         src/gui-sdl/dlgNewDisk.c
+AU        src/gui-sdl/font10x16.bmp
+AU        src/gui-sdl/font5x8.bmp
+A         src/gui-sdl/font10x16.h
+A         src/gui-sdl/font5x8.h
+A         src/gui-sdl/dlgJoystick.c
+A         src/includes
+A         src/includes/bmap.h
+A         src/includes/configuration.h
+A         src/includes/cycInt.h
+A         src/includes/dma.h
+A         src/includes/main.h
+A         src/includes/screen.h
+A         src/includes/scsi.h
+A         src/includes/snd.h
+A         src/includes/audio.h
+A         src/includes/change.h
+A         src/includes/control.h
+A         src/includes/createBlankImage.h
+A         src/includes/dialog.h
+A         src/includes/ethernet.h
+A         src/includes/file.h
+A         src/includes/floppy.h
+A         src/includes/host.h
+A         src/includes/ioMem.h
+A         src/includes/keymap.h
+A         src/includes/kms.h
+A         src/includes/m68000.h
+A         src/includes/nextMemory.h
+A         src/includes/options.h
+A         src/includes/paths.h
+A         src/includes/printer.h
+A         src/includes/ramdac.h
+A         src/includes/reset.h
+A         src/includes/rtcnvram.h
+A         src/includes/scandir.h
+A         src/includes/sdlgui.h
+A         src/includes/shortcut.h
+A         src/includes/statusbar.h
+A         src/includes/str.h
+A         src/includes/sysReg.h
+A         src/includes/unzip.h
+A         src/includes/utils.h
+A         src/includes/video.h
+A         src/includes/zip.h
+A         src/includes/adb.h
+A         src/includes/nbic.h
+A         src/includes/scc.h
+A         src/includes/ioMemTables.h
+A         src/includes/tmc.h
+A         src/includes/queue.h
+A         src/includes/enet_slirp.h
+A         src/includes/mo.h
+A         src/includes/rs.h
+A         src/includes/esp.h
+A         src/includes/cfgopts.h
+A         src/kms.c
+A         src/main.c
+A         src/mo.c
+A         src/printer.c
+A         src/scsi.c
+A         src/slirp
+AU        src/slirp/misc.c
+AU        src/slirp/slirp.h
+A         src/slirp/CMakeLists.txt
+AU        src/slirp/bootp.c
+AU        src/slirp/bootp.h
+AU        src/slirp/if.c
+AU        src/slirp/if.h
+AU        src/slirp/ip.h
+AU        src/slirp/ip_icmp.c
+AU        src/slirp/ip_icmp.h
+AU        src/slirp/ip_input.c
+AU        src/slirp/ip_output.c
+AU        src/slirp/mbuf.c
+AU        src/slirp/mbuf.h
+AU        src/slirp/misc.h
+AU        src/slirp/sbuf.c
+AU        src/slirp/sbuf.h
+AU        src/slirp/slirp.c
+AU        src/slirp/slirp_config.h
+AU        src/slirp/slirpdebug.c
+AU        src/slirp/slirpdebug.h
+AU        src/slirp/socket.c
+AU        src/slirp/socket.h
+AU        src/slirp/tcp.h
+AU        src/slirp/tcp_input.c
+AU        src/slirp/tcp_output.c
+AU        src/slirp/tcp_subr.c
+AU        src/slirp/tcp_timer.h
+AU        src/slirp/tftp.c
+AU        src/slirp/tftp.h
+AU        src/slirp/udp.c
+AU        src/slirp/udp.h
+AU        src/slirp/COPYRIGHT
+AU        src/slirp/VERSION
+AU        src/slirp/cksum.c
+AU        src/slirp/ctl.h
+AU        src/slirp/icmp_var.h
+AU        src/slirp/libslirp.h
+AU        src/slirp/slirpmain.h
+AU        src/slirp/tcp_timer.c
+AU        src/slirp/tcp_var.h
+AU        src/slirp/tcpip.h
+A         src/snd.c
+A         src/softfloat
+A         src/softfloat/CMakeLists.txt
+AU        src/softfloat/mamesf.h
+AU        src/softfloat/softfloat-specialize.h
+AU        src/softfloat/softfloat.c
+AU        src/softfloat/softfloat.h
+AU        src/softfloat/softfloat_fpsp.c
+AU        src/softfloat/softfloat_fpsp_tables.h
+AU        src/softfloat/README.txt
+AU        src/softfloat/fpu_constant.h
+AU        src/softfloat/fsincos.c
+AU        src/softfloat/fyl2x.c
+AU        src/softfloat/milieu.h
+AU        src/softfloat/softfloat-macros.h
+AU        src/softfloat/softfloat_decimal.c
+AU        src/softfloat/softfloat_extension.c
+A         src/sysReg.c
+A         src/video.c
+AU        src/ND_step1_v43_eeprom.bin
+AU        src/Previous-icon.bmp
+A         src/ROMV66-0001E-02588.ASM
+AU        src/Rev_0.8_v31.bin
+A         src/adb.c
+A         src/cfgopts.c
+A         src/control.c
+A         src/convert
+A         src/convert/high640x8.c
+A         src/convert/routines.h
+A         src/convert/macros.h
+A         src/debug
+A         src/debug/68kDisass.c
+A         src/debug/breakcond.c
+A         src/debug/debugInfo.c
+A         src/debug/debugcpu.c
+A         src/debug/debugcpu.h
+A         src/debug/debugui.c
+A         src/debug/evaluate.c
+A         src/debug/log.c
+A         src/debug/log.h
+A         src/debug/profile.c
+A         src/debug/debugui.h
+AU        src/debug/Rev_3.3_v74.BIN
+A         src/debug/profile.h
+AU        src/debug/Rev_2.5_v66.BIN
+A         src/debug/debugInfo.h
+A         src/debug/evaluate.h
+A         src/debug/68kDisass.h
+A         src/debug/symbols.c
+AU        src/debug/Rev_1.0_v41.BIN
+A         src/debug/debug_priv.h
+A         src/debug/CMakeLists.txt
+A         src/debug/breakcond.h
+A         src/debug/symbols.h
+A         src/dialog.c
+AU        src/dimension_eeprom.bin
+A         src/dsp
+A         src/dsp/dsp.c
+A         src/dsp/dsp_core.c
+A         src/dsp/dsp_cpu.c
+A         src/dsp/dsp_disasm.c
+A         src/dsp/dsp_core.h
+A         src/dsp/dsp_cpu.h
+A         src/dsp/CMakeLists.txt
+A         src/dsp/dsp.h
+A         src/dsp/dsp_disasm.h
+A         src/file.c
+A         src/host.c
+A         src/ioMem.c
+A         src/ioMemTabNEXT.c
+A         src/ioMemTabTurbo.c
+A         src/keymap.c
+A         src/m68000.c
+A         src/nbic.c
+A         src/nextMemory.c
+A         src/options.c
+A         src/ramdac.c
+A         src/reset.c
+A         src/rs.c
+A         src/rtcnvram.c
+A         src/scc.c
+A         src/shortcut.c
+A         src/statusbar.c
+A         src/str.c
+A         src/tmc.c
+A         src/unzip.c
+A         src/queue.c
+A         src/gui-win
+A         src/gui-win/Makefile
+AU        src/gui-win/previous-winicon.ico
+AU        src/gui-win/previous-winicon.rc
+A         src/gui-win/opencon.c
+A         src/gui-win/opencon.h
+AU        src/Rev_1.0_v41.BIN
+AU        src/Rev_3.3_v74.BIN
+A         src/avi_record.c
+A         src/paths.c
+A         src/scandir.c
+A         src/utils.c
+A         src/zip.c
+A         src/wavFormat.c
+AU        src/Rev_2.5_v66.BIN
+A         src/dim.c
+A         filesharing.howto.txt
+A         cmake
+A         cmake/config-cmake.h
+A         cmake/DistClean.cmake
+A         cmake/FindSDL2.cmake
+A         cmake/Toolchain-mingw32.cmake
+A         cmake/Uninstall.cmake
+A         cmake/FindReadline.cmake
+A         cmake/FindPortAudio.cmake
+A         cmake/FindMath.cmake
+A         networking.howto.txt
+A         disks
+AU        disks/empty.ecc.od.zip
+A         Visual.Studio
+A         Visual.Studio/VisualStudioFix.c
+A         Visual.Studio/VisualStudioFix.h
+A         previous.spec
+AU        configure
+A         etc
+A         etc/win-ce.cfg
+A         etc/n810.cfg
+A         etc/README
+A         python-ui
+A         python-ui/release-notes.txt
+A         python-ui/uihelpers.py
+A         python-ui/config.py
+AU        python-ui/hatariui.py
+A         python-ui/README
+A         python-ui/hatari.py
+A         python-ui/FILES
+A         python-ui/TODO
+A         python-ui/hatariui.1
+AU        python-ui/hatariui
+A         python-ui/dialogs.py
+AU        python-ui/debugui.py
+A         python-ui/CMakeLists.txt
+AU        python-ui/hatari-icon.png
+AU        python-ui/hatari.png
+A         python-ui/tests
+A         python-ui/tests/pygtk-hatari-embed-test.py
+A         python-ui/tests/pygtk-hello-world.py
+A         python-ui/tests/README
+A         python-ui/.cvsignore
+A         python-ui/hatariui.desktop
+A         gpl.txt
+ U        .
+At revision 842
+
+[Previous] $ /bin/sh -xe /tmp/jenkins6822126703399473602.sh
++ ./configure
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found SDL2: /usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread  
+-- Found MATH: /usr/lib/x86_64-linux-gnu/libm.so  
+-- Could NOT find READLINE (missing:  READLINE_LIBRARY READLINE_INCLUDE_DIR) 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.28") 
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Looking for include file termios.h
+-- Looking for include file termios.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for include file sys/times.h
+-- Looking for include file sys/times.h - found
+-- Looking for include files sys/socket.h, sys/un.h
+-- Looking for include files sys/socket.h, sys/un.h - found
+-- Looking for include file SDL2/SDL_config.h
+-- Looking for include file SDL2/SDL_config.h - found
+-- Looking for cfmakeraw
+-- Looking for cfmakeraw - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for select
+-- Looking for select - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for nanosleep
+-- Looking for nanosleep - found
+-- Looking for alphasort
+-- Looking for alphasort - found
+-- Looking for scandir
+-- Looking for scandir - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for include file sys/filio.h
+-- Looking for include file sys/filio.h - not found
+-- Looking for include file sys/ioctl.h
+-- Looking for include file sys/ioctl.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Found PythonInterp: /usr/bin/python (found version "2.7.13") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/lib/jenkins/workspace/Previous
+
+Now you must type: make; make install
+to actually build and install the software
+
++ make -j3
+Scanning dependencies of target SoftFloat
+[  0%] Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o
+Scanning dependencies of target Slirp
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:68:6: warning: no previous prototype for ‘saveFloatx80Internal’ [-Wmissing-prototypes]
+ void saveFloatx80Internal( int8 prec, flag zSign, int32 zExp, bits64 zSig0, bits64 zSig1 )
+      ^~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:79:6: warning: no previous prototype for ‘saveFloat64Internal’ [-Wmissing-prototypes]
+ void saveFloat64Internal( flag zSign, int16 zExp, bits64 zSig )
+      ^~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:90:6: warning: no previous prototype for ‘saveFloat32Internal’ [-Wmissing-prototypes]
+ void saveFloat32Internal( flag zSign, int16 zExp, bits32 zSig )
+      ^~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:107:6: warning: no previous prototype for ‘getRoundedFloatInternal’ [-Wmissing-prototypes]
+ void getRoundedFloatInternal( int8 roundingPrecision, flag *pzSign, int32 *pzExp, bits64 *pzSig )
+      ^~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c: In function ‘getRoundedFloatInternal’:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:146:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( zSig0 < roundIncrement ) {
+                ^
+In file included from /var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:344:0:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h: At top level:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h:75:6: warning: no previous prototype for ‘float32_is_nan’ [-Wmissing-prototypes]
+ flag float32_is_nan( float32 a )
+      ^~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h:163:6: warning: no previous prototype for ‘float64_is_nan’ [-Wmissing-prototypes]
+ flag float64_is_nan( float64 a )
+      ^~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h: In function ‘propagateFloatx80NaN’:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h:410:35: warning: variable ‘bIsNaN’ set but not used [-Wunused-but-set-variable]
+     flag aIsNaN, aIsSignalingNaN, bIsNaN, bIsSignalingNaN;
+                                   ^~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h: At top level:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat-specialize.h:500:6: warning: no previous prototype for ‘float128_is_nan’ [-Wmissing-prototypes]
+ flag float128_is_nan( float128 a )
+      ^~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c: In function ‘roundAndPackInt64’:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:564:4: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    : LIT64( 0x7FFFFFFFFFFFFFFF );
+    ^
+Scanning dependencies of target Debug
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c: In function ‘roundAndPackFloatx80’:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:1373:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( zSig0 < roundIncrement ) {
+                ^
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c: At top level:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:1457:10: warning: no previous prototype for ‘roundSigAndPackFloatx80’ [-Wmissing-prototypes]
+ floatx80 roundSigAndPackFloatx80( int8 roundingPrecision, flag zSign, int32 zExp, bits64 zSig0, bits64 zSig1 )
+          ^~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c: In function ‘roundSigAndPackFloatx80’:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.c:1533:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ( zSig0 < roundIncrement ) {
+                ^
+[  1%] Building C object src/debug/CMakeFiles/Debug.dir/68kDisass.c.o
+[  2%] Building C object src/slirp/CMakeFiles/Slirp.dir/bootp.c.o
+[  3%] Building C object src/slirp/CMakeFiles/Slirp.dir/cksum.c.o
+[  3%] Building C object src/slirp/CMakeFiles/Slirp.dir/if.c.o
+/var/lib/jenkins/workspace/Previous/src/slirp/if.c:24:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ ifs_insque(ifm, ifmhead)
+ ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/if.c:34:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ ifs_remque(ifm)
+ ^~~~~~~~~~
+[  4%] Building C object src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.o
+[  5%] Building C object src/slirp/CMakeFiles/Slirp.dir/ip_input.c.o
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c: In function ‘ip_input’:
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c:143:57: warning: passing argument 5 of ‘icmp_error’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+    icmp_error(m, ICMP_TIMXCEED,ICMP_TIMXCEED_INTRANS, 0,"ttl");
+                                                         ^~~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c:52:0:
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_icmp.h:165:6: note: expected ‘char *’ but argument is of type ‘const char *’
+ void icmp_error(struct mbuf *, u_char, u_char, int, char *);
+      ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c:48:19: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+         (type *) ((char *) __mptr - offsetof(type, member));})
+                   ^
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c:174:18: note: in expansion of macro ‘container_of’
+             fp = container_of(l, struct ipq, ip_link);
+                  ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c: In function ‘ip_slowtimo’:
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c:48:19: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+         (type *) ((char *) __mptr - offsetof(type, member));})
+                   ^
+/var/lib/jenkins/workspace/Previous/src/slirp/ip_input.c:465:20: note: in expansion of macro ‘container_of’
+   struct ipq *fp = container_of(l, struct ipq, ip_link);
+                    ^~~~~~~~~~~~
+[  6%] Building C object src/slirp/CMakeFiles/Slirp.dir/ip_output.c.o
+[  6%] Building C object src/slirp/CMakeFiles/Slirp.dir/mbuf.c.o
+[  7%] Building C object src/slirp/CMakeFiles/Slirp.dir/misc.c.o
+/var/lib/jenkins/workspace/Previous/src/slirp/misc.c: In function ‘getouraddr’:
+/var/lib/jenkins/workspace/Previous/src/slirp/misc.c:191:24: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+    our_addr = *(struct in_addr *)ai->ai_addr->sa_data;
+                        ^~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/misc.c: In function ‘fork_exec’:
+/var/lib/jenkins/workspace/Previous/src/slirp/misc.c:444:14: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+    argv[i++] = "slirp.telnetd";
+              ^
+/var/lib/jenkins/workspace/Previous/src/slirp/misc.c:445:14: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+    argv[i++] = "-x";
+              ^
+[  8%] Building C object src/slirp/CMakeFiles/Slirp.dir/sbuf.c.o
+[  8%] Building C object src/slirp/CMakeFiles/Slirp.dir/slirp.c.o
+/var/lib/jenkins/workspace/Previous/src/slirp/slirp.c:559:6: warning: no previous prototype for ‘arp_input’ [-Wmissing-prototypes]
+ void arp_input(const uint8_t *pkt, int pkt_len)
+      ^~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/slirp.c: In function ‘arp_input’:
+/var/lib/jenkins/workspace/Previous/src/slirp/slirp.c:561:25: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+     struct ethhdr *eh = (struct ethhdr *)pkt;
+                         ^
+/var/lib/jenkins/workspace/Previous/src/slirp/slirp.c:562:25: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+     struct arphdr *ah = (struct arphdr *)(pkt + ETH_HLEN);
+                         ^
+/var/lib/jenkins/workspace/Previous/src/slirp/slirp.c: In function ‘slirp_add_exec’:
+/var/lib/jenkins/workspace/Previous/src/slirp/slirp.c:674:41: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+     return add_exec(&exec_list, do_pty, (char *)args,
+                                         ^
+[  8%] Building C object src/debug/CMakeFiles/Debug.dir/log.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/debug/log.c:25:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[  9%] Building C object src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.o
+/var/lib/jenkins/workspace/Previous/src/slirp/slirpdebug.c:53:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ dump_packet(dat, n)
+ ^~~~~~~~~~~
+[ 10%] Building C object src/debug/CMakeFiles/Debug.dir/debugui.c.o
+[ 11%] Building C object src/slirp/CMakeFiles/Slirp.dir/socket.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/change.h:10:0,
+                 from /var/lib/jenkins/workspace/Previous/src/debug/debugui.c:25:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/debug/debugui.c: In function ‘DebugUI_Init’:
+/var/lib/jenkins/workspace/Previous/src/debug/debugui.c:816:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if(!(debugOutput))
+     ^~
+/var/lib/jenkins/workspace/Previous/src/debug/debugui.c:820:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+  if (debugCommands)
+  ^~
+/var/lib/jenkins/workspace/Previous/src/debug/debugui.c: In function ‘DebugUI’:
+/var/lib/jenkins/workspace/Previous/src/debug/debugui.c:919:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (psCmd)
+     ^~
+/var/lib/jenkins/workspace/Previous/src/debug/debugui.c:922:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+  Log_SetAlertLevel(alertLevel);
+  ^~~~~~~~~~~~~~~~~
+[ 12%] Building C object src/debug/CMakeFiles/Debug.dir/breakcond.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/debug/breakcond.c:21:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 12%] Building C object src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.o
+[ 12%] Building C object src/debug/CMakeFiles/Debug.dir/debugcpu.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/debug/debugcpu.c:18:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 13%] Building C object src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.o
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:49:2: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "REDIRECT", "LISTEN", "SYN_SENT",     "SYN_RCVD",
+  ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:49:14: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "REDIRECT", "LISTEN", "SYN_SENT",     "SYN_RCVD",
+              ^~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:49:24: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "REDIRECT", "LISTEN", "SYN_SENT",     "SYN_RCVD",
+                        ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:49:40: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "REDIRECT", "LISTEN", "SYN_SENT",     "SYN_RCVD",
+                                        ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:50:2: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "ESTABLISHED",  "CLOSE_WAIT",   "FIN_WAIT_1",   "CLOSING",
+  ^~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:50:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "ESTABLISHED",  "CLOSE_WAIT",   "FIN_WAIT_1",   "CLOSING",
+                  ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:50:34: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "ESTABLISHED",  "CLOSE_WAIT",   "FIN_WAIT_1",   "CLOSING",
+                                  ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:50:50: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "ESTABLISHED",  "CLOSE_WAIT",   "FIN_WAIT_1",   "CLOSING",
+                                                  ^~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:51:2: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "LAST_ACK",     "FIN_WAIT_2",   "TIME_WAIT",
+  ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:51:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "LAST_ACK",     "FIN_WAIT_2",   "TIME_WAIT",
+                  ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/slirp/tcp_output.c:51:34: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "LAST_ACK",     "FIN_WAIT_2",   "TIME_WAIT",
+                                  ^~~~~~~~~~~
+[ 14%] Building C object src/debug/CMakeFiles/Debug.dir/debugInfo.c.o
+[ 15%] Building C object src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/debug/debugInfo.c:16:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 16%] Building C object src/debug/CMakeFiles/Debug.dir/evaluate.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/debug/evaluate.c:25:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 17%] Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o
+[ 18%] Building C object src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.o
+[ 18%] Building C object src/slirp/CMakeFiles/Slirp.dir/tftp.c.o
+[ 19%] Building C object src/debug/CMakeFiles/Debug.dir/profile.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/debug/profile.c:17:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 20%] Building C object src/slirp/CMakeFiles/Slirp.dir/udp.c.o
+[ 21%] Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat_fpsp.c:36:7: warning: no previous prototype for ‘floatx80_make_compact’ [-Wmissing-prototypes]
+ int32 floatx80_make_compact(int32 aExp, bits64 aSig)
+       ^~~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat_fpsp.c: In function ‘floatx80_cosh’:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat_fpsp.c:630:10: warning: variable ‘aSign’ set but not used [-Wunused-but-set-variable]
+     flag aSign;
+          ^~~~~
+[ 22%] Linking C static library libSlirp.a
+[ 22%] Built target Slirp
+[ 22%] Building C object src/debug/CMakeFiles/Debug.dir/symbols.c.o
+Scanning dependencies of target GuiSdl
+[ 23%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.o
+[ 24%] Linking C static library libDebug.a
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/dialog.h:11:0,
+                 from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgAbout.c:12:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 24%] Built target Debug
+[ 24%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.o
+Scanning dependencies of target build68k
+[ 25%] Building C object src/cpu/CMakeFiles/build68k.dir/build68k.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgAdvanced.c:11:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 26%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/dialog.h:11:0,
+                 from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgAlert.c:24:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 27%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.o
+[ 27%] Linking C static library libSoftFloat.a
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgBoot.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 27%] Linking C executable build68k
+[ 27%] Built target SoftFloat
+[ 27%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.o
+[ 28%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDiskSelect.c.o
+[ 28%] Built target build68k
+Scanning dependencies of target DSP
+[ 28%] Building C object src/dsp/CMakeFiles/DSP.dir/dsp.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dsp/dsp.c:30:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgDimension.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 29%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgEthernet.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 30%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.o
+[ 30%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.o
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgFileSelect.c: In function ‘DlgFileSelect_ManageScrollbar’:
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgFileSelect.c:298:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (scrollbar_Ypos < 0)
+     ^~
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgFileSelect.c:302:9: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+         b = (int) (scrollbar_Ypos * ((float)entries/(float)(SGFS_NUMENTRIES-2)) + 0.5);
+         ^
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgFloppy.c:11:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 31%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.o
+[ 32%] Building C object src/dsp/CMakeFiles/DSP.dir/dsp_core.c.o
+[ 33%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgKeyboard.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgKeyboard.c: In function ‘Dialog_KeyboardDlg’:
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgKeyboard.c:103:5: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgKeyboard.c:107:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+  do
+  ^~
+[ 33%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/dialog.h:11:0,
+                 from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMemory.c:10:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMain.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMain.c: In function ‘Dialog_MainDlg’:
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMain.c:95:5: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+/var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMain.c:98:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+  do
+  ^~
+[ 34%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.o
+[ 35%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMemoryAdvanced.c:11:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMissingFile.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 35%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.o
+[ 36%] Building C object src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.o
+[ 37%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgMouse.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 38%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgOpticalDisk.c:11:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgPrinter.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 39%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.o
+[ 39%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgRom.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgSCSI.c:11:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 40%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.o
+[ 41%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgSystem.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/gui-sdl/dlgSound.c:10:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 41%] Building C object src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.o
+[ 41%] Building C object src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.o
+[ 42%] Linking C static library libGuiSdl.a
+[ 42%] Built target GuiSdl
+Scanning dependencies of target Dimension
+[ 43%] Building C object src/dimension/CMakeFiles/Dimension.dir/dimension.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/dimension.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+Scanning dependencies of target hatariui_man
+[ 44%] Generating hatariui.1.gz
+[ 44%] Building C object src/dimension/CMakeFiles/Dimension.dir/nd_mem.c.o
+[ 44%] Built target hatariui_man
+[ 45%] Generating cpudefs.c
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/nd_mem.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+Scanning dependencies of target gencpu
+[ 46%] Building C object src/cpu/CMakeFiles/gencpu.dir/gencpu.c.o
+[ 47%] Building C object src/dimension/CMakeFiles/Dimension.dir/nd_nbic.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/nd_nbic.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 48%] Building C object src/dimension/CMakeFiles/Dimension.dir/nd_devs.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/nd_devs.c:6:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 48%] Building C object src/dimension/CMakeFiles/Dimension.dir/nd_vio.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/nd_vio.c:6:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/dimension/nd_vio.c:39:6: warning: no previous prototype for ‘dmcd_write’ [-Wmissing-prototypes]
+ void dmcd_write(uae_u32 step, uae_u8 data) {
+      ^~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/dimension/nd_vio.c:69:6: warning: no previous prototype for ‘dcsc_write’ [-Wmissing-prototypes]
+ void dcsc_write(uae_u8 dev, uae_u32 step, uae_u8 data) {
+      ^~~~~~~~~~
+[ 49%] Building C object src/dimension/CMakeFiles/Dimension.dir/nd_rom.c.o
+[ 50%] Linking C static library libDSP.a
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/nd_rom.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 50%] Built target DSP
+[ 51%] Building CXX object src/dimension/CMakeFiles/Dimension.dir/i860.cpp.o
+[ 52%] Building CXX object src/dimension/CMakeFiles/Dimension.dir/i860dis.cpp.o
+[ 52%] Building C object src/dimension/CMakeFiles/Dimension.dir/nd_sdl.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dimension/nd_sdl.c:3:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 52%] Building C object src/cpu/CMakeFiles/gencpu.dir/readcpu.c.o
+[ 53%] Building C object src/cpu/CMakeFiles/gencpu.dir/cpudefs.c.o
+[ 54%] Linking CXX static library libDimension.a
+[ 54%] Built target Dimension
+[ 55%] Linking C executable gencpu
+[ 55%] Built target gencpu
+[ 56%] Generating cpustbl.c, cpuemu_31.c, cpuemu_32.c
+Scanning dependencies of target UaeCpu
+[ 57%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.o
+[ 57%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.o
+[ 58%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.o
+[ 59%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.o
+[ 59%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.o
+[ 60%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.o
+[ 61%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_common.c.o
+[ 61%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/hatari-glue.c:16:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 62%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/memory.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/cpu/memory.c:29:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 63%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:13:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:25:0:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h: In function ‘fp_mod’:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h:466:31: warning: passing argument 3 of ‘floatx80_mod’ from incompatible pointer type [-Wincompatible-pointer-types]
+     *a = floatx80_mod(*a, *b, q, s);
+                               ^
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.h:120:0,
+                 from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:24,
+                 from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:13:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.h:347:10: note: expected ‘bits64 * {aka long unsigned int *}’ but argument is of type ‘long long unsigned int *’
+ floatx80 floatx80_mod( floatx80 a, floatx80 b, bits64 *q, flag *s );
+          ^~~~~~~~~~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:25:0:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h: In function ‘fp_rem’:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h:482:31: warning: passing argument 3 of ‘floatx80_rem’ from incompatible pointer type [-Wincompatible-pointer-types]
+     *a = floatx80_rem(*a, *b, q, s);
+                               ^
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.h:120:0,
+                 from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:24,
+                 from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:13:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.h:346:10: note: expected ‘bits64 * {aka long unsigned int *}’ but argument is of type ‘long long unsigned int *’
+ floatx80 floatx80_rem( floatx80 a, floatx80 b, bits64 *q, flag *s );
+          ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c: At top level:
+/var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:230:6: warning: no previous prototype for ‘build_cpufunctbl’ [-Wmissing-prototypes]
+ void build_cpufunctbl (void)
+      ^~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/newcpu.c:1526:8: warning: no previous prototype for ‘buf_out’ [-Wmissing-prototypes]
+ TCHAR* buf_out (TCHAR *buffer, int *bufsize, const TCHAR *format, ...)
+        ^~~~~~~
+[ 64%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.o
+[ 64%] Building C object src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:26:0:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h: In function ‘fp_mod’:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h:466:31: warning: passing argument 3 of ‘floatx80_mod’ from incompatible pointer type [-Wincompatible-pointer-types]
+     *a = floatx80_mod(*a, *b, q, s);
+                               ^
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.h:120:0,
+                 from /var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:21:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.h:347:10: note: expected ‘bits64 * {aka long unsigned int *}’ but argument is of type ‘long long unsigned int *’
+ floatx80 floatx80_mod( floatx80 a, floatx80 b, bits64 *q, flag *s );
+          ^~~~~~~~~~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:26:0:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h: In function ‘fp_rem’:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h:482:31: warning: passing argument 3 of ‘floatx80_rem’ from incompatible pointer type [-Wincompatible-pointer-types]
+     *a = floatx80_rem(*a, *b, q, s);
+                               ^
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/newcpu.h:120:0,
+                 from /var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:21:
+/var/lib/jenkins/workspace/Previous/src/softfloat/softfloat.h:346:10: note: expected ‘bits64 * {aka long unsigned int *}’ but argument is of type ‘long long unsigned int *’
+ floatx80 floatx80_rem( floatx80 a, floatx80 b, bits64 *q, flag *s );
+          ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c: At top level:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:194:6: warning: no previous prototype for ‘reset_fsave_data’ [-Wmissing-prototypes]
+ void reset_fsave_data(void)
+      ^~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:239:6: warning: no previous prototype for ‘fp_exception_pending’ [-Wmissing-prototypes]
+ bool fp_exception_pending(bool pre)
+      ^~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:269:6: warning: no previous prototype for ‘fp_unimp_instruction_exception_pending’ [-Wmissing-prototypes]
+ void fp_unimp_instruction_exception_pending(void)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:282:6: warning: no previous prototype for ‘fpsr_set_exception’ [-Wmissing-prototypes]
+ void fpsr_set_exception(uae_u32 exception)
+      ^~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:286:9: warning: no previous prototype for ‘fpsr_get_vector’ [-Wmissing-prototypes]
+ uae_u32 fpsr_get_vector(uae_u32 exception)
+         ^~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:298:6: warning: no previous prototype for ‘fpsr_check_arithmetic_exception’ [-Wmissing-prototypes]
+ void fpsr_check_arithmetic_exception(uae_u32 mask, fptype *src, uae_u32 opcode, uae_u16 extra, uae_u32 ea)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:430:6: warning: no previous prototype for ‘fpsr_set_result’ [-Wmissing-prototypes]
+ void fpsr_set_result(fptype *result)
+      ^~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:445:6: warning: no previous prototype for ‘fpsr_clear_status’ [-Wmissing-prototypes]
+ void fpsr_clear_status(void)
+      ^~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:453:9: warning: no previous prototype for ‘fpsr_make_status’ [-Wmissing-prototypes]
+ uae_u32 fpsr_make_status(void)
+         ^~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:482:5: warning: no previous prototype for ‘fpsr_set_bsun’ [-Wmissing-prototypes]
+ int fpsr_set_bsun(void)
+     ^~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:498:6: warning: no previous prototype for ‘fpsr_set_quotient’ [-Wmissing-prototypes]
+ void fpsr_set_quotient(uae_u64 quot, uae_s8 sign)
+      ^~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:504:6: warning: no previous prototype for ‘fpsr_get_quotient’ [-Wmissing-prototypes]
+ void fpsr_get_quotient(uae_u64 *quot, uae_s8 *sign)
+      ^~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:516:6: warning: no previous prototype for ‘fpp_set_fpsr’ [-Wmissing-prototypes]
+ void fpp_set_fpsr (uae_u32 val)
+      ^~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:521:6: warning: no previous prototype for ‘fpp_set_fpcr’ [-Wmissing-prototypes]
+ void fpp_set_fpcr (uae_u32 val)
+      ^~~~~~~~~~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:26:0:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c: In function ‘get_fp_value’:
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp-softfloat.h:192:37: warning: ‘exts[2]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     fp->low = ((uae_u64)wrd2 << 32) | wrd3;
+               ~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:1049:13: note: ‘exts[2]’ was declared here
+     uae_u32 exts[3];
+             ^~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:1202:20: warning: ‘exts[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             wrd[1] = (doext ? exts[1] : x_cp_get_long (ad));
+             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/cpu/fpp.c:1200:20: warning: ‘exts[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             wrd[0] = (doext ? exts[0] : x_cp_get_long (ad));
+             ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 65%] Linking C static library libUaeCpu.a
+[ 66%] Built target UaeCpu
+Scanning dependencies of target Previous
+[ 67%] Building C object src/CMakeFiles/Previous.dir/adb.c.o
+[ 67%] Building C object src/CMakeFiles/Previous.dir/audio.c.o
+[ 68%] Building C object src/CMakeFiles/Previous.dir/bmap.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/adb.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/bmap.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/dialog.h:11:0,
+                 from /var/lib/jenkins/workspace/Previous/src/audio.c:2:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/audio.c: In function ‘Audio_Input_CallBack’:
+/var/lib/jenkins/workspace/Previous/src/audio.c:61:5: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+     while(len--)
+     ^~~~~
+/var/lib/jenkins/workspace/Previous/src/audio.c:63:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘while’
+  recBufferWr &= REC_BUFFER_MASK;
+  ^~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/audio.c: At top level:
+/var/lib/jenkins/workspace/Previous/src/audio.c:78:6: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Audio_Input_InitBuf() {
+      ^~~~~~~~~~~~~~~~~~~
+[ 69%] Building C object src/CMakeFiles/Previous.dir/cfgopts.c.o
+[ 70%] Building C object src/CMakeFiles/Previous.dir/configuration.c.o
+[ 70%] Building C object src/CMakeFiles/Previous.dir/options.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/configuration.c:17:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/configuration.c:714:6: warning: no previous prototype for ‘Configuration_CheckEthernetSettings’ [-Wmissing-prototypes]
+ void Configuration_CheckEthernetSettings(void) {
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/options.c:25:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 71%] Building C object src/CMakeFiles/Previous.dir/change.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/change.c:17:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 72%] Building C object src/CMakeFiles/Previous.dir/control.c.o
+[ 72%] Building C object src/CMakeFiles/Previous.dir/cycInt.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/change.h:10:0,
+                 from /var/lib/jenkins/workspace/Previous/src/control.c:24:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/cycInt.c:26:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 73%] Building C object src/CMakeFiles/Previous.dir/dialog.c.o
+[ 74%] Building C object src/CMakeFiles/Previous.dir/dma.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/dialog.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 74%] Building C object src/CMakeFiles/Previous.dir/esp.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/dma.c:12:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 75%] Building C object src/CMakeFiles/Previous.dir/enet_slirp.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/enet_slirp.c:1:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 76%] Building C object src/CMakeFiles/Previous.dir/ethernet.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/esp.c:7:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/ethernet.c:12:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 77%] Building C object src/CMakeFiles/Previous.dir/file.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/dialog.h:11:0,
+                 from /var/lib/jenkins/workspace/Previous/src/file.c:25:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 77%] Building C object src/CMakeFiles/Previous.dir/floppy.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/floppy.c:6:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 78%] Building C object src/CMakeFiles/Previous.dir/ioMem.c.o
+[ 79%] Building C object src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/ioMem.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/ioMemTabNEXT.c:17:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 79%] Building C object src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.o
+[ 80%] Building C object src/CMakeFiles/Previous.dir/keymap.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/ioMemTabTurbo.c:17:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 81%] Building C object src/CMakeFiles/Previous.dir/kms.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/kms.c:15:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/keymap.c:14:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 81%] Building C object src/CMakeFiles/Previous.dir/m68000.c.o
+[ 82%] Building C object src/CMakeFiles/Previous.dir/main.c.o
+[ 83%] Building C object src/CMakeFiles/Previous.dir/mo.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/main.c:16:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/main.c:69:6: warning: no previous prototype for ‘Main_Speed’ [-Wmissing-prototypes]
+ void Main_Speed(double realTime, double hostTime) {
+      ^~~~~~~~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/m68000.c:13:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/mo.c:22:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/mo.c: In function ‘mo_seek’:
+/var/lib/jenkins/workspace/Previous/src/mo.c:1329:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (seek_time>modrv[dnum].head_pos) {
+                  ^
+[ 84%] Building C object src/CMakeFiles/Previous.dir/nbic.c.o
+[ 84%] Building C object src/CMakeFiles/Previous.dir/nextMemory.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/nbic.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/nextMemory.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 85%] Building C object src/CMakeFiles/Previous.dir/paths.c.o
+[ 86%] Building C object src/CMakeFiles/Previous.dir/printer.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/printer.c:12:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 86%] Building C object src/CMakeFiles/Previous.dir/queue.c.o
+[ 87%] Building C object src/CMakeFiles/Previous.dir/ramdac.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/ramdac.c:14:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:69:9: warning: no previous prototype for ‘bt463_read_reg’ [-Wmissing-prototypes]
+ uae_u32 bt463_read_reg(bt463* ramdac) {
+         ^~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:96:6: warning: no previous prototype for ‘bt463_write_reg’ [-Wmissing-prototypes]
+ void bt463_write_reg(bt463* ramdac, uae_u32 val) {
+      ^~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:117:9: warning: no previous prototype for ‘bt463_read_ccr’ [-Wmissing-prototypes]
+ uae_u32 bt463_read_ccr(bt463* ramdac) {
+         ^~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:128:6: warning: no previous prototype for ‘bt463_write_ccr’ [-Wmissing-prototypes]
+ void bt463_write_ccr(bt463* ramdac, uae_u32 val) {
+      ^~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:137:9: warning: no previous prototype for ‘bt463_read_wtt’ [-Wmissing-prototypes]
+ uae_u32 bt463_read_wtt(bt463* ramdac) {
+         ^~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:161:6: warning: no previous prototype for ‘bt463_write_wtt’ [-Wmissing-prototypes]
+ void bt463_write_wtt(bt463* ramdac, uae_u32 val) {
+      ^~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:183:9: warning: no previous prototype for ‘bt463_read_palette’ [-Wmissing-prototypes]
+ uae_u32 bt463_read_palette(bt463* ramdac) {
+         ^~~~~~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/ramdac.c:194:6: warning: no previous prototype for ‘bt463_write_palette’ [-Wmissing-prototypes]
+ void bt463_write_palette(bt463* ramdac, uae_u32 val) {
+      ^~~~~~~~~~~~~~~~~~~
+[ 88%] Building C object src/CMakeFiles/Previous.dir/reset.c.o
+[ 88%] Building C object src/CMakeFiles/Previous.dir/rs.c.o
+[ 89%] Building C object src/CMakeFiles/Previous.dir/rtcnvram.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/reset.c:12:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 90%] Building C object src/CMakeFiles/Previous.dir/scandir.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/rtcnvram.c:14:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 91%] Building C object src/CMakeFiles/Previous.dir/scc.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/m68000.h:28:0,
+                 from /var/lib/jenkins/workspace/Previous/src/scc.c:14:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 91%] Building C object src/CMakeFiles/Previous.dir/fast_screen.c.o
+[ 92%] Building C object src/CMakeFiles/Previous.dir/host.c.o
+[ 93%] Building C object src/CMakeFiles/Previous.dir/scsi.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/fast_screen.c:17:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/host.c:13:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/scsi.c:5:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/scsi.c:193:6: warning: no previous prototype for ‘SCSI_EjectDisk’ [-Wmissing-prototypes]
+ void SCSI_EjectDisk(Uint8 i) {
+      ^~~~~~~~~~~~~~
+/var/lib/jenkins/workspace/Previous/src/scsi.c: In function ‘SCSI_ReadCapacity’:
+/var/lib/jenkins/workspace/Previous/src/scsi.c:666:67: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 3 has type ‘Uint64 {aka long unsigned int}’ [-Wformat=]
+     Log_Printf(LOG_SCSI_LEVEL, "[SCSI] Read disk image: size = %llu byte\n", SCSIdisk[target].size);
+                                                                   ^
+[ 93%] Building C object src/CMakeFiles/Previous.dir/shortcut.c.o
+[ 94%] Building C object src/CMakeFiles/Previous.dir/snd.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/includes/dialog.h:11:0,
+                 from /var/lib/jenkins/workspace/Previous/src/shortcut.c:14:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/snd.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 95%] Building C object src/CMakeFiles/Previous.dir/statusbar.c.o
+[ 95%] Building C object src/CMakeFiles/Previous.dir/str.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/statusbar.c:32:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+/var/lib/jenkins/workspace/Previous/src/statusbar.c: In function ‘Statusbar_UpdateInfo’:
+/var/lib/jenkins/workspace/Previous/src/statusbar.c:440:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (ConfigureParams.System.bColor)
+     ^~
+/var/lib/jenkins/workspace/Previous/src/statusbar.c:443:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+  *end = '\0';
+  ^
+In file included from /var/lib/jenkins/workspace/Previous/src/str.c:16:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 96%] Building C object src/CMakeFiles/Previous.dir/sysReg.c.o
+[ 97%] Building C object src/CMakeFiles/Previous.dir/tmc.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/sysReg.c:8:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+In file included from /var/lib/jenkins/workspace/Previous/src/tmc.c:2:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[ 98%] Building C object src/CMakeFiles/Previous.dir/unzip.c.o
+[ 98%] Building C object src/CMakeFiles/Previous.dir/utils.c.o
+[ 99%] Building C object src/CMakeFiles/Previous.dir/video.c.o
+In file included from /var/lib/jenkins/workspace/Previous/src/video.c:13:0:
+/var/lib/jenkins/workspace/Previous/src/includes/configuration.h:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void Configuration_CheckEthernetSettings();
+ ^~~~
+[100%] Building C object src/CMakeFiles/Previous.dir/zip.c.o
+[100%] Linking CXX executable Previous
+[100%] Built target Previous
+Finished: SUCCESS
